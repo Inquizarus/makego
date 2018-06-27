@@ -22,5 +22,5 @@ func main() {
 	new := []byte(os.Args[1])
 	newContent := bytes.Replace(content, old, new, 1)
 
-	ioutil.WriteFile("makefile", newContent, 0777)
+	ioutil.WriteFile("Makefile", newContent, 0777)
 }
